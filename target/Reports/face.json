@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-26T14:28:54.697Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14248433200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "validate the login functionality with invalid username and invalid password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-facebook;validate-the-login-functionality-with-invalid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 368499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3915600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should launch the browser and load the url",
+            "match": {
+              "location": "Stepdefinition.user_should_launch_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468724000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should enter invalid usernamE and invalid password",
+            "match": {
+              "location": "Stepdefinition.user_should_enter_invalid_usernamE_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fruits",
+                  "Veg",
+                  "FastFood",
+                  "Starters"
+                ]
+              },
+              {
+                "cells": [
+                  "Orange",
+                  "Carrot",
+                  "Maggi",
+                  "Soup"
+                ]
+              },
+              {
+                "cells": [
+                  "Apple",
+                  "Lfinger",
+                  "Samosa",
+                  "Chicken"
+                ]
+              },
+              {
+                "cells": [
+                  "Grape",
+                  "Onion",
+                  "Bread",
+                  "Masala"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149721100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Stepdefinition.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25361677700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should navigate to incredential page",
+            "match": {
+              "location": "Stepdefinition.user_should_navigate_to_incredential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate the login functionality of facebook",
+    "description": "",
+    "id": "validate-the-login-functionality-of-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefiles/Login.feature",
+    "tags": []
+  }
+]
